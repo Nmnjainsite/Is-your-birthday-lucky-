@@ -1,0 +1,48 @@
+
+
+
+body{
+    background-color:  rgb(74 222 128)
+    ;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    
+
+}
+
+
+input,
+label{
+    display: block;
+    color:rgb(124 45 18) ;
+    padding: 0.5rem;
+}
+
+input{
+    margin-bottom: 0.1rem;
+    width: 100%;
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    color:rgb(17 24 39);
+    padding: 0.5rem;
+    margin: auto;
+    border-radius: 0.5rem;
+}
+
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+#output-box{
+    margin: auto;
+    padding: 1rem;
+    color: black;
+}

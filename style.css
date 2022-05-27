@@ -4,35 +4,38 @@
 body{
     background-color:  rgb(74 222 128)
     ;
+   
 }
+
 .container{
-    width: 50%;
-    margin: auto;
-    
-
-}
-
-
-input,
-label{
     display: block;
-    color:rgb(124 45 18) ;
-    padding: 0.5rem;
+    text-align: center;
+width: 250px;
+margin: auto;
+   font-size: 18px;
 }
 
 input{
-    margin-bottom: 0.1rem;
-    width: 100%;
+  width: 200px;
+    color:rgb(124 45 18) ;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+   
 }
+
+
 
 #check-number{
     display: block;
-    margin-top: 1rem;
     margin: auto;
     color:rgb(17 24 39);
     padding: 0.5rem;
-    margin: auto;
     border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
 }
 
 
@@ -42,7 +45,38 @@ h1{
 }
 
 #output-box{
-    margin: auto;
+    margin: 1rem;
     padding: 1rem;
     color: black;
+    border: 1px solid black;
+    border-radius: 1rem;
+
 }
+
+.footer{
+    border-radius: 1rem;
+    margin-top: 5rem;
+       padding: 1rem;
+      text-align: center;
+        background-color: 
+        #166534;
+        font-size: large;
+    }
+    
+    .list-non-bullet{
+        list-style: none;
+    
+       
+    }
+    
+    .list-item-inline{
+        display: inline;
+    
+    margin: 1rem;
+    
+     font-size: 17px;
+     text-align: center;
+     padding: 1rem 1rem;
+    
+    
+    }
